@@ -1,7 +1,7 @@
 # class Solution:
 #     # def isPalindrome(self, s: str) -> bool:
 #     #     clean_string = ''.join(char.lower() for char in s if char.isalnum())
-       
+#     #here it checks the reverse string with the given string but that isn't the correct way, we have to check for the mirror-ness inside the string itself.
 #     #     return clean_string == clean_string[::-1]
 #     def isPalindrome(self, s: str) -> bool:
 #         left, right = 0, len(s) - 1
