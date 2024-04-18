@@ -1,3 +1,5 @@
 # Practice-Leetcode
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/surya_ned)
+Progress: 
+
+![](https://leetcard.jacoblin.cool/surya-ned?ext=heatmap)
