@@ -15,5 +15,6 @@ jobs:
         curl -X POST \
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: token ${{ secrets.ACTIONS_TOKEN }}" \
-          https://api.github.com/repos/username/personal-software-learning-notes/dispatches \
+          https://api.github.com/repos/your-username/personal-software-learning-notes/dispatches \
           -d '{"event_type":"update_from_leetcode"}'
+
