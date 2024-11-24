@@ -1,0 +1,190 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;\f2\froman\fcharset0 Times-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww37900\viewh20740\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 Q: 269, Alien Dictionary\
+\
+Problem Description:\
+You are given a list of words in a sorted order according to a new alien language dictionary. Determine the order of character in the alien language.\
+\
+\ul Example Input and Output:\
+\
+Example 1:\
+\
+Input:\
+\ulnone words = [\'93wrt\'94, \'93wrf\'94, \'93er\'94, \'93ett\'94, \'93rfft\'94]\
+\
+Output: \'93wertf\'94\
+\
+Explanation:\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The order of characters is derived as follows: \
+- Compare "wrt" and "wrf": 't' comes before 'f'. \
+- Compare "wrf" and "er": 'w' comes before 'e'.\
+- Compare "er" and "ett": 'r' comes before 't'.\
+- Compare "ett" and "rftt": 'e' comes before 'r'.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ul \ulc0 \outl0\strokewidth0 Example 2:
+\f1 \expnd0\expndtw0\kerning0
+\ulnone \outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf0 Input:\
+words = ["z", "x"]\
+\
+Output:\
+"zx"\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ul \ulc0 \outl0\strokewidth0 Example 3:\
+Input:\
+words = ["z", "x", "z"]\
+\
+Output:\
+""\
+\
+Explanation:\
+The order is invalid because it implies a cycle (z \uc0\u8594  x \u8594  z).\
+\
+\
+\ulnone \'97>
+\f2\b \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Approach\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 This problem is essentially a 
+\f2\b graph topological sorting
+\f1\b0  problem:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Treat characters as nodes in a graph.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Build a directed graph by comparing adjacent words.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Perform topological sorting to determine the character order.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Detect cycles to determine if a valid order exists.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\cf0 \
+1. Using Kahn\'92s Algorithm (BFS)\
+\
+from collections import defaultdict, deque\
+from typing import List\
+\
+Class Solution:\
+	def alienOrder(self, words: List[str]) -> str:\
+		# Step 1: Build the Graph\
+		graph = defaultdict(list)\
+		in_degree = defaultdict(int) #In-degree for each node\
+\
+		# Initialize in-degree for all unique characters\
+		for word in words:\
+			for char in word:\
+				in_degree[char] =  0\
+		# Compare adjacent words\
+		for i range(len(words) - 1):\
+			word1, word2 = words[i], words[i + 1]\
+			min_length = min(length(word1), length(word2))\
+			# Check for invalid order (prefix problem)\
+			if word1[:min_length] == word2[:min_length] and len(word1) > len(word2):\
+				return \'93\'94 # Invalid case\
+			\
+			for j in range(min_length):\
+				if word1[j] != word2[j]:\
+					graph[word1[j]].append(word2[j])\
+					in_degree[word2[j]] += 1\
+					break\
+		# Step 2: Topological sorting using Kahn\'92s Algorithm\
+		queue = deque([char for char in in_degree if in_degree[char] == 0])\
+		order = []\
+		\
+		while queue:\
+			char = queue.popleft()\
+			order.append(char)\
+			\
+			for neighbor in graph[char]:\
+				in_degree[neighbor] == 0\
+				if in_degree[neighbor] == 0:\
+					queue.append(neighbor)\
+		# Step 3: Check if the order contains all characters\
+		if len(order) != len(in_degree):\
+			return \'93\'94 # Cycle detected\
+		return \'93\'94.join(order)\
+\
+\
+Time complexity: Graph Construction: O(C), C is the total number of characters in all words.\
+				Topological sorting: O(V + E), V = number of unique characters, E = number of edges\
+				Total : O(C+V+E)\
+\
+Space Complexity: Graph Storage: O(E)\
+				Queue and result list: O(V)\
+				Total: O(V + E)\
+\
+# Using DFS cycle detection:\
+\
+from collections import defaultdict\
+from typing import List\
+\
+class Solution:\
+    def alienOrder(self, words: List[str]) -> str:\
+        # Step 1: Build the graph\
+        graph = defaultdict(list)\
+        visited = \{\}  # 0: unvisited, 1: visiting, 2: visited\
+        for word in words:\
+            for char in word:\
+                visited[char] = 0  # Initialize all characters as unvisited\
+\
+        # Compare adjacent words to establish edges\
+        for i in range(len(words) - 1):\
+            word1, word2 = words[i], words[i + 1]\
+            min_length = min(len(word1), len(word2))\
+            if word1[:min_length] == word2[:min_length] and len(word1) > len(word2):\
+                return ""  # Invalid case: prefix problem\
+\
+            for j in range(min_length):\
+                if word1[j] != word2[j]:\
+                    graph[word1[j]].append(word2[j])\
+                    break\
+\
+        # Step 2: Perform DFS\
+        order = []\
+        cycle_detected = False\
+\
+        def dfs(char):\
+            nonlocal cycle_detected\
+            if visited[char] == 1:  # Cycle detected\
+                cycle_detected = True\
+                return\
+            if visited[char] == 2:  # Already processed\
+                return\
+\
+            visited[char] = 1  # Mark as visiting\
+            for neighbor in graph[char]:\
+                dfs(neighbor)\
+                if cycle_detected:  # Stop further exploration if a cycle is detected\
+                    return\
+\
+            visited[char] = 2  # Mark as fully processed\
+            order.append(char)  # Post-order addition\
+\
+        for char in visited:\
+            if visited[char] == 0:\
+                dfs(char)\
+                if cycle_detected:\
+                    return ""  # If a cycle is detected, return an empty string\
+\
+        return "".join(order[::-1])  # Reverse the post-order traversal\
+\
+}
