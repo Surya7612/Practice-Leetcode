@@ -21,6 +21,7 @@ Progress:
 ## Graph
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/Surya7612/Practice-Leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Surya7612/Practice-Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0210-course-schedule-ii) |
 | [0684-redundant-connection](https://github.com/Surya7612/Practice-Leetcode/tree/master/0684-redundant-connection) |
@@ -33,6 +34,7 @@ Progress:
 ## Depth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/Surya7612/Practice-Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Surya7612/Practice-Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Surya7612/Practice-Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0210-course-schedule-ii) |
@@ -40,6 +42,7 @@ Progress:
 ## Breadth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/Surya7612/Practice-Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Surya7612/Practice-Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Surya7612/Practice-Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0210-course-schedule-ii) |
@@ -65,4 +68,8 @@ Progress:
 |  |
 | ------- |
 | [0630-course-schedule-iii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0630-course-schedule-iii) |
+## Hash Table
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Surya7612/Practice-Leetcode/tree/master/0133-clone-graph) |
 <!---LeetCode Topics End-->
