@@ -10,6 +10,7 @@ Progress:
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Surya7612/Practice-Leetcode/tree/master/0200-number-of-islands) |
+| [0630-course-schedule-iii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0630-course-schedule-iii) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Surya7612/Practice-Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Union Find
 |  |
@@ -52,4 +53,16 @@ Progress:
 | ------- |
 | [0207-course-schedule](https://github.com/Surya7612/Practice-Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0210-course-schedule-ii) |
+## Greedy
+|  |
+| ------- |
+| [0630-course-schedule-iii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0630-course-schedule-iii) |
+## Sorting
+|  |
+| ------- |
+| [0630-course-schedule-iii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0630-course-schedule-iii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0630-course-schedule-iii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0630-course-schedule-iii) |
 <!---LeetCode Topics End-->
