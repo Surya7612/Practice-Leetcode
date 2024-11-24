@@ -21,6 +21,7 @@ Progress:
 | ------- |
 | [0207-course-schedule](https://github.com/Surya7612/Practice-Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0210-course-schedule-ii) |
+| [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Surya7612/Practice-Leetcode/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Surya7612/Practice-Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Minimum Spanning Tree
 |  |
