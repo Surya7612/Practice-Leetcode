@@ -1,0 +1,240 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+\f3\fnil\fcharset0 STIXTwoMath-Regular;\f4\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue255;\red255\green255\blue255;
+\red32\green108\blue135;\red101\green76\blue29;\red0\green0\blue109;\red15\green112\blue1;\red157\green0\blue210;
+\red19\green118\blue70;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c100000;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c14902\c49804\c60000;\cssrgb\c47451\c36863\c14902;\cssrgb\c0\c6275\c50196;\cssrgb\c0\c50196\c0;\cssrgb\c68627\c0\c85882;
+\cssrgb\c3529\c52549\c34510;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid201\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid202\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid302\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid401\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid402\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid5}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
+\margl1440\margr1440\vieww37900\viewh20740\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf0 \expnd0\expndtw0\kerning0
+"Graph Valid Tree"
+\f1\b0  (
+\f0\b LeetCode #261
+\f1\b0 , 
+\f0\b Medium
+\f1\b0 )\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b \cf0 Problem Description: Graph Valid Tree\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 Given 
+\f2\fs26 n
+\f1\fs24  nodes labeled from 
+\f2\fs26 0
+\f1\fs24  to 
+\f2\fs26 n-1
+\f1\fs24  and a list of 
+\f2\fs26 edges
+\f1\fs24 , determine if these edges form a valid tree.\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 Input:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f2\b0\fs26 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+n
+\f1\fs24 : The number of nodes.\
+\ls1\ilvl0
+\f2\fs26 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+edges
+\f1\fs24 : A 2D list where each element 
+\f2\fs26 [u, v]
+\f1\fs24  represents an edge between nodes 
+\f2\fs26 u
+\f1\fs24  and 
+\f2\fs26 v
+\f1\fs24 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 Output:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Return 
+\f2\fs26 True
+\f1\fs24  if the graph is a valid tree; otherwise, return 
+\f2\fs26 False
+\f1\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\cf0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+
+\fs28 \cf0 Example 1\
+Input: n = 5, edges = [[0,1],[0,2],[0,3],[1,4]]\
+Output: True\
+\
+2:\
+Input: n = 5, edges = [[0,1],[1,2],[2,3],[1,3],[1,4]]\
+Output: False\
+\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b \cf0 Key Observations\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 To determine if a graph is a valid tree:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+A tree must not have cycles
+\f1\b0 :\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls3\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Use a cycle detection method.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+A tree must be connected
+\f1\b0 :\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls3\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+All nodes must be part of a single connected component.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b \cf0 Approach 1: Union-Find (Disjoint Set)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0 \cf0 We can use the 
+\f0\b Union-Find
+\f1\b0  data structure to check for:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Cycles
+\f1\b0 :\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+If two nodes are already connected and we try to add an edge between them, a cycle is formed.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Connectivity
+\f1\b0 :\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+After processing all edges, there should be exactly one connected component (i.e., the number of edges must be 
+\f3 n - 1
+\fs24 \
+\pard\tx720\tx1440\pardeftab720\partightenfactor0
+
+\f1 \cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f0\b\fs28 \cf0 Algorithm\
+\pard\pardeftab720\sa319\partightenfactor0
+\cf0 Steps:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0
+\f1\b0 \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Initialize a Union-Find structure with 
+\f2 parent
+\f1  and 
+\f2 rank
+\f1  arrays.\
+\ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Iterate through each edge:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls5\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Use the 
+\f2 union
+\f1  operation to connect nodes.\
+\ls5\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+If 
+\f2 union
+\f1  fails (i.e., nodes are already connected), a cycle is detected \uc0\u8594  return 
+\f2 False
+\f1 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+After processing all edges, check:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls5\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+The number of edges must be exactly n\uc0\u8722 1.\
+\ls5\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+If not, the graph is disconnected \uc0\u8594  return 
+\f2 False
+\f1 .\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	4	}\expnd0\expndtw0\kerning0
+Return 
+\f2 True
+\f1  if all checks pass.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 \
+Code:\
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf3 \cb4 class\cf0  \cf5 Solution\cf0 :\cb1 \
+\cb4     \cf3 def\cf0  \cf6 validTree\cf0 (\cf7 self\cf0 , \cf7 n\cf0 : \cf5 int\cf0 , \cf7 edges\cf0 : List[List[\cf5 int\cf0 ]]) -> \cf5 bool\cf0 :\cb1 \
+\cb4         \cf8 # Step 1: Check basic condition (n - 1 edges for a valid tree)\cf0 \cb1 \
+\cb4         \cf9 if\cf0  \cf6 len\cf0 (edges) != n - \cf10 1\cf0 :\cb1 \
+\cb4             \cf9 return\cf0  \cf3 False\cf0 \cb1 \
+\
+\cb4         \cf8 # Step 2: Initialize Union-Find\cf0 \cb1 \
+\cb4         parent = [i \cf9 for\cf0  i \cf9 in\cf0  \cf6 range\cf0 (n)]\cb1 \
+\cb4         rank = [\cf10 0\cf0 ] * n\cb1 \
+\
+\cb4         \cf3 def\cf0  \cf6 find\cf0 (\cf7 x\cf0 ):\cb1 \
+\cb4             \cf9 if\cf0  parent[x] != x:\cb1 \
+\cb4                 parent[x] = find(parent[x]) \cf8 # Path compression\cf0 \cb1 \
+\cb4             \cf9 return\cf0  parent[x]\cb1 \
+\
+\cb4         \cf3 def\cf0  \cf6 union\cf0 (\cf7 x\cf0 , \cf7 y\cf0 ):\cb1 \
+\cb4             root_x = find(x)\cb1 \
+\cb4             root_y = find(y)\cb1 \
+\cb4             \cf9 if\cf0  root_x == root_y:\cb1 \
+\cb4                 \cf9 return\cf0  \cf3 False\cf0  \cf8 # Cycle detected\cf0 \cb1 \
+\cb4             \cf9 if\cf0  rank[root_x] > rank[root_y]:\cb1 \
+\cb4                 parent[root_y] = root_x\cb1 \
+\cb4             \cf9 elif\cf0  rank[root_x] < rank[root_y]:\cb1 \
+\cb4                 parent[root_x] = root_y\cb1 \
+\cb4             \cf9 else\cf0 :\cb1 \
+\cb4                 parent[root_y] = root_x\cb1 \
+\cb4                 rank[root_x] += \cf10 1\cf0 \cb1 \
+\cb4             \cf9 return\cf0  \cf3 True\cf0 \cb1 \
+\
+\cb4         \cf8 # Step 3: Process edges\cf0 \cb1 \
+\cb4         \cf9 for\cf0  u,v \cf9 in\cf0  edges:\cb1 \
+\cb4             \cf9 if\cf0  \cf3 not\cf0  union(u, v):\cb1 \
+\cb4                 \cf9 return\cf0  \cf3 False\cf0  \cf8 # Cycle detected\cf0 \cb1 \
+\
+\cb4         \cf8 # Step 4: Return True if no cycles and exactly n-1 edges\cf0 \cb1 \
+\cb4         \cf9 return\cf0  \cf3 True\cf0 \cb1 \
+\cb4             \cb1 \
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf0 \
+\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f0\b \cf0 Time Complexity
+\f1\b0 : for union-find operations: O(E. \uc0\u945 (n)), where 
+\fs24 \uc0\u945 (n) is the inverse Ackerman function(almost constant)\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\fs28 \cf0 So Total TC: 
+\f0\b O(E)\
+\
+Space Complexity:\
+O(n)
+\f1\b0  for parent and rank arrays.\
+\pard\tx720\tx1440\pardeftab720\partightenfactor0
+
+\fs24 \cf0 \
+}
