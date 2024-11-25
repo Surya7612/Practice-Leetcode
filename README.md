@@ -26,6 +26,7 @@ Progress:
 | [0210-course-schedule-ii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/Surya7612/Practice-Leetcode/tree/master/0310-minimum-height-trees) |
 | [0684-redundant-connection](https://github.com/Surya7612/Practice-Leetcode/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/Surya7612/Practice-Leetcode/tree/master/0744-network-delay-time) |
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Surya7612/Practice-Leetcode/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Surya7612/Practice-Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Minimum Spanning Tree
@@ -41,6 +42,7 @@ Progress:
 | [0210-course-schedule-ii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/Surya7612/Practice-Leetcode/tree/master/0310-minimum-height-trees) |
 | [0684-redundant-connection](https://github.com/Surya7612/Practice-Leetcode/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/Surya7612/Practice-Leetcode/tree/master/0744-network-delay-time) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -50,6 +52,7 @@ Progress:
 | [0210-course-schedule-ii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/Surya7612/Practice-Leetcode/tree/master/0310-minimum-height-trees) |
 | [0684-redundant-connection](https://github.com/Surya7612/Practice-Leetcode/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/Surya7612/Practice-Leetcode/tree/master/0744-network-delay-time) |
 ## Matrix
 |  |
 | ------- |
@@ -72,8 +75,13 @@ Progress:
 |  |
 | ------- |
 | [0630-course-schedule-iii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0630-course-schedule-iii) |
+| [0744-network-delay-time](https://github.com/Surya7612/Practice-Leetcode/tree/master/0744-network-delay-time) |
 ## Hash Table
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Surya7612/Practice-Leetcode/tree/master/0133-clone-graph) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/Surya7612/Practice-Leetcode/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
