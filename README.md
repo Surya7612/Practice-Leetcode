@@ -78,6 +78,7 @@ Progress:
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Surya7612/Practice-Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0630-course-schedule-iii](https://github.com/Surya7612/Practice-Leetcode/tree/master/0630-course-schedule-iii) |
 | [0744-network-delay-time](https://github.com/Surya7612/Practice-Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Surya7612/Practice-Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -111,4 +112,16 @@ Progress:
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/Surya7612/Practice-Leetcode/tree/master/0127-word-ladder) |
+## Linked List
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Surya7612/Practice-Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Surya7612/Practice-Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Surya7612/Practice-Leetcode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
