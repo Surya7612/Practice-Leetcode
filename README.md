@@ -93,4 +93,16 @@ Progress:
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Surya7612/Practice-Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+## Design
+|  |
+| ------- |
+| [1708-design-parking-system](https://github.com/Surya7612/Practice-Leetcode/tree/master/1708-design-parking-system) |
+## Simulation
+|  |
+| ------- |
+| [1708-design-parking-system](https://github.com/Surya7612/Practice-Leetcode/tree/master/1708-design-parking-system) |
+## Counting
+|  |
+| ------- |
+| [1708-design-parking-system](https://github.com/Surya7612/Practice-Leetcode/tree/master/1708-design-parking-system) |
 <!---LeetCode Topics End-->
