@@ -48,6 +48,7 @@ Progress:
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Surya7612/Practice-Leetcode/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/Surya7612/Practice-Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/Surya7612/Practice-Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Surya7612/Practice-Leetcode/tree/master/0207-course-schedule) |
@@ -83,6 +84,7 @@ Progress:
 ## Hash Table
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Surya7612/Practice-Leetcode/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/Surya7612/Practice-Leetcode/tree/master/0133-clone-graph) |
 ## Shortest Path
 |  |
@@ -105,4 +107,8 @@ Progress:
 |  |
 | ------- |
 | [1708-design-parking-system](https://github.com/Surya7612/Practice-Leetcode/tree/master/1708-design-parking-system) |
+## String
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/Surya7612/Practice-Leetcode/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
