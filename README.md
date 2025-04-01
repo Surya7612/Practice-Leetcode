@@ -95,6 +95,7 @@ Progress:
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/Surya7612/Practice-Leetcode/tree/master/0115-distinct-subsequences) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Surya7612/Practice-Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Design
 |  |
@@ -111,6 +112,7 @@ Progress:
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/Surya7612/Practice-Leetcode/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Surya7612/Practice-Leetcode/tree/master/0127-word-ladder) |
 ## Linked List
 |  |
